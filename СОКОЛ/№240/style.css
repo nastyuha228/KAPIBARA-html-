@@ -1,0 +1,17 @@
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid rgb(9, 170, 108);
+	background-color: rgb(9, 170, 108);
+}
+#menu a:hover, #menu a.active {
+	color: rgb(9, 170, 108);
+	border: 1px solid rgb(9, 170, 108);
+	background-color: #F5F6FA;
+}
